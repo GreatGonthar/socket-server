@@ -1,0 +1,60 @@
+body {
+	box-sizing: border-box;
+	font-size: 24px;
+}
+header {
+	padding-bottom: 100px;
+}
+.form {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	height: 50px;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.15);
+}
+.name {
+	height: 35px;
+	background-color: antiquewhite;
+	padding: 15px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.input {
+	height: 35px;
+	border-radius: 30px;
+	border: none;
+	margin: 5px;
+	padding: 0 25px;
+	display: flex;
+	width: 100%;
+	outline: none;
+}
+.btn {
+	background-color: blueviolet;
+	border: none;
+	width: 100px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	color: aliceblue;
+	border-radius: 5px;
+}
+.messages {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.messages > li {
+	padding: 10px;
+}
+.messages > li:nth-child(odd) {
+	background-color: antiquewhite;
+}
